@@ -6,4 +6,9 @@
 
 
 ## Changelog
-> #### v1.0.1.1
+> #### <span style="color:blue">v1.0.1.1 \- Orginal code from extension
+> #### v \-
+> #### v \-
+> #### v \-
+> #### v \-
+</span>
