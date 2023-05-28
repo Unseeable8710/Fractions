@@ -13,7 +13,6 @@
       }
    },
    "description": "A great extension for learning fractions, getting better grades at school, and knowing fractions better then you normally would.",
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzkVRosZ+Bwi6teZGtkYTBvbiS2VLwvQHgc1CbpSSfZnu1Rukvsy2LYRCvkQEZz6nM2hn/+ynASdJ2fmwYyuKNvH4iXAaV6zt2kGRmdQikeBg5Mnycg5px28i5icLCntkcV50UuFO8R0hslB9xYG1ipCksuN7Slv2cU52x7O/rdOdN/nwMfTikvosZRxcDADFCqAoHjSAa/WmtWdXJ7rPVvgBMOe4sKx+7/aSvykavfQFfs298FSYEBtSnTFv0yyOEhKoDTIBmzmHeFPC3EJz1xWG17c+zi2A/BFIQyk1PtYD5nwiHC4ATd3MGtSaZUgbgDm5FIkSXGoYB3t2hJrw9QIDAQAB",
    "manifest_version": 2,
    "name": "Fractions for Kids",
    "update_url": "https://clients2.google.com/service/update2/crx",
