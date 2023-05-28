@@ -13,7 +13,7 @@
       }
    },
    "description": "A great extension for learning fractions, getting better grades at school, and knowing fractions better then you normally would.",
-   "manifest_version": 2,
+   "manifest_version": 3,
    "name": "Fractions",
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "1.0.2.1"
