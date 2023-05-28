@@ -12,7 +12,7 @@
          }
       }
    },
-   "description": "A great extension for learning fractions, getting better grades at school, and knowing fractions better then you normally would. Orginally, this was called "Fractions for Kids", but I lost the password for that account, so I found the files on my computer and started editing them of GitHub. Then, I uploaded them here.",
+   "description": "A great extension for learning fractions, getting better grades at school, and knowing fractions better then you normally would. Orginally, this was called 'Fractions for Kids', but I lost the password for that account, so I found the files on my computer and started editing them of GitHub. Then, I uploaded them here.",
    "manifest_version": 2,
    "name": "Fractions",
    "update_url": "https://clients2.google.com/service/update2/crx",
