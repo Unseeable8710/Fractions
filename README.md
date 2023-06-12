@@ -6,9 +6,8 @@
 
 
 ## Changelog
-> #### <span style="color:blue">v1.0.1.1 \- Orginal code from extension
-> #### v \-
-> #### v \-
-> #### v \-
-> #### v \-
-</span>
+> #### <span style="color:lightblue" font-family="balsamiq sans">v1.0.1.1 \- Orginal code from extension</span>
+> #### <span style="color:lightblue">v1.0.2.1 \- A few </span>
+> #### <span style="color:lightblue">v \- </span>
+> #### <span style="color:lightblue">v \- </span>
+> #### <span style="color:lightblue">v \- </span>
