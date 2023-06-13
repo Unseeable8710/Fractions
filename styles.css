@@ -6,4 +6,7 @@ body {
   padding-top: 0.8%;
   padding-right: 1%;
 }
+#construction {
+  background-color: rgb(65, 233, 255);
+}
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:&display=swap');
