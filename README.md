@@ -14,23 +14,13 @@
 > #### <span style="color:lightblue">v1.0.1.2 \- A few formatting tweaks tweaks</span>
 > #### <span style="color:lightblue">v1.0.2.0 \- Added "new-index.html" (access from home screen) and more formatting</span>
 > #### <span style="color:lightblue">v1.1.0.0 \- </span>
-
 > #### <span style="color:lightblue">v1.1.0.1 \- </span>
-
 > #### <span style="color:lightblue">v1.1.0.2 \- </span>
-
 > #### <span style="color:lightblue">v1.1.0.3 \- </span>
-
 > #### <span style="color:lightblue">v1.1.0.4 \- </span>
-
 > #### <span style="color:lightblue">v1.1.1.0 \- </span>
-
 > #### <span style="color:lightblue">v1.1.1.1 \- </span>
-
 > #### <span style="color:lightblue">v1.1.1.2 \- </span>
-
 > #### <span style="color:lightblue">v1.1.1.3 \- </span>
-
 > #### <span style="color:lightblue">v1.1.1.4 \- </span>
-
 > #### <span style="color:lightblue">v1.1.1.5 \- </span>
