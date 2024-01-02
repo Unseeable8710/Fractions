@@ -9,6 +9,11 @@
          "suggested_key": {
             "default": "Ctrl+Shift+F",
             "mac": "MacCtrl+Shift+F"
+         },
+         "description": "Opens new-index.html",
+         "suggested_key": {
+            "default": "Ctrl+Alt+Shift+F",
+            "mac": "MacCtrl+Alt+Shift+F"
          }
       }
    },
