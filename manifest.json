@@ -1,20 +1,32 @@
 {
-   "browser_action": {
-      "default_icon": "Fractions_for_Kids.png",
-      "default_popup": "main.html"
-   },
-   "commands": {
-      "_execute_browser_action": {
-         "description": "Opens index.html",
-         "suggested_key": {
-            "default": "Ctrl+Shift+F",
-            "mac": "MacCtrl+Shift+F"
-         }
-      }
-   },
-   "description": "A great extension for learning fractions, getting better grades at school, and knowing fractions better then you normally would.",
-   "manifest_version": 3,
-   "name": "Fractions",
-   "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.0.2.0"
+  "manifest_version": 3,
+  "name": "Math",
+  "version": "2.1.0.26",
+  "description": "Click the extension's icon, and it will open a page. The page has many links that you can click to get to different pages. These pages explain different parts of math. The subjects are: The basics, basic geometry, Pre-Algebra, Algebra I, Algebra II, Geometry, Trigonometry, and Calculus. So far, Algebra I is incomplete, and Algebra II through Calculus are under construction.",
+  "icons": {
+    "128": "128.bmp"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "chrome_settings_overrides": {
+    "startup_pages": ["/newtab/newtab.html"]
+  },
+  "default_locale": "en",
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "permissions": [
+    "storage"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "commands": {
+    "Open extension": {
+      "suggested_key": {
+        "default": "Ctrl+M"
+      },
+      "description": "Open the extension"
+    }
+  }
 }

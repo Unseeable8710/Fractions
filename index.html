@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Math</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <link title="Math">
@@ -10,13 +11,27 @@
 		<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet, preconnect">
   </head>
   <body>
-    <p>
-      <!--This is true, but why?...-->
-      This page is currently under construction
-      <!--This is true, but why?...-->
-    </p id="construction">
-    <p>
-      Go <a href="main.html">back</a>
-    </p>
+    <script src="main.js"></script>
+    <div class="indexProgressContainer fixed-top">
+      <span class="indexProgress"></span>
+    </div>
+    <div class="pageContainer normalContainer">
+      <p class="welcome">Welcome to Math!</p>
+      <p class="normalText">Welcome to Math! You can select a topic from the list below, and it will take you to the page that explains your topic. Math is fun!</p>
+      <p class="normalText">Contents:</p>
+      <ul class="normalText">
+        <li>Basic:</li>
+        <ul>
+          <li><a href="add.html">Addition</a></li>
+          <li><a href="subtract.html">Subtraction</a></li>
+          <li>Multiplication:</li>
+          <ul>
+            <li><a href="multiply.html#basic-multiplication">Multiplication</a></li>
+            <li><a href="multiply.html#exponents">Exponents</a></li>
+          </ul>
+          <li><a href="divide.html">Division</a></li>
+        </ul>
+      </ul>
+    </div>
   </body>
 </html>

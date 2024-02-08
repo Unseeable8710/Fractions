@@ -1,13 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:&display=swap');
+
 body {
   width: 600px;
-  background-color: rgb(65, 233, 255);
+  background-color: #41e9ff99;
   font-family: 'Balsamiq Sans', cursive;
   padding-left: 1.25%;
   padding-top: 0.8%;
   padding-right: 1%;
+  line-height: 1;
 }
-#construction {
-  background-color: rgb(65, 233, 255);
-  color: rgb(65, 233, 255);
+.normalText {
+  font-size: 14pt;
+}
+
+.welcome {
+  font-size: 26pt;
+  font-weight: bold;
+}
+.title {
+  font-size: 24pt;
+  font-weight: bold;
+}
+.topicHeading {
+  font-size: 18pt;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.indexProgressContainer {
+  width: 100%;
+  background-color: transparent;
+  height: 5px;
+  display: block;
+}
+.indexProgress {
+  background-color: #0078d7;
+  width: 0%;
+  display: block;
+  height: inherit;
+}
+
+.standardHrLine {
+  width: 800px;
+  height: 1px;
+  background-color: #000000;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 1px;
+}
+.pageWidthLine {
+  width: 96vw;
+  height: 1px;
+  background-color: #000000;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 1px;
+}
+
+.pageContainer {
+  width: 100%;
+  height: 100%;
+}
+.normalContainer {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.bodyContainer {
+  width: 50%
 }
