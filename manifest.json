@@ -9,24 +9,22 @@
   "background": {
     "service_worker": "background.js"
   },
-  "chrome_settings_overrides": {
-    "startup_pages": ["/newtab/newtab.html"]
-  },
   "default_locale": "en",
   "update_url": "https://clients2.google.com/service/update2/crx",
   "permissions": [
-    "storage"
+    "storage",
+    "tabs"
   ],
   "options_ui": {
     "page": "options.html",
     "open_in_tab": true
   },
   "commands": {
-    "Open extension": {
+    "Open index.html": {
       "suggested_key": {
         "default": "Ctrl+M"
       },
-      "description": "Open the extension"
+      "description": "Opens index.html."
     }
   }
 }

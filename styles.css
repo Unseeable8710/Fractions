@@ -63,13 +63,30 @@ body {
 }
 
 .pageContainer {
-  width: 100%;
-  height: 100%;
+  width: 96vw;
+  height: 100vh;
 }
 .normalContainer {
   padding-left: 4px;
   padding-right: 4px;
 }
-.bodyContainer {
-  width: 50%
+.fullBodyContainer {
+  width: 96vw;
+}
+
+.normalTable {
+  border-collapse: collapse;
+  width: 200px;
+  text-align: left;
+}
+.normalTableTd, .normalTableTh {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.normalTableTr:nth-child(even) {
+  background-color: #dddddd;
+}
+.normalTableTr:nth-child(odd) {
+  background-color: #ffffff;
 }
