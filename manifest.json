@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Math",
-  "version": "2.1.0.26",
+  "version": "2.1.0.32",
   "description": "Click the extension's icon, and it will open a page. The page has many links that you can click to get to different pages. These pages explain different parts of math. The subjects are: The basics, basic geometry, Pre-Algebra, Algebra I, Algebra II, Geometry, Trigonometry, and Calculus. So far, Algebra I is incomplete, and Algebra II through Calculus are under construction.",
   "icons": {
     "128": "128.bmp"
