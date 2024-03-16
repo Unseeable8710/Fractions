@@ -10,7 +10,7 @@ body {
   line-height: 1;
 }
 .normalText {
-  font-size: 14pt;
+  font-size: 13.5pt;
 }
 
 .welcome {
@@ -18,31 +18,26 @@ body {
   font-weight: bold;
 }
 .title {
-  font-size: 24pt;
+  font-size: 22pt;
   font-weight: bold;
 }
 .topicHeading {
-  font-size: 18pt;
+  font-size: 19pt;
+}
+.subTopicHeading {
+  font-size: 15.5pt;
 }
 
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-
-.indexProgressContainer {
+.progress-container {
   width: 100%;
-  background-color: transparent;
-  height: 5px;
-  display: block;
+  height: 8px;
+  background: #ccc;
 }
-.indexProgress {
-  background-color: #0078d7;
+
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
   width: 0%;
-  display: block;
-  height: inherit;
 }
 
 .standardHrLine {
@@ -89,4 +84,9 @@ body {
 }
 .normalTableTr:nth-child(odd) {
   background-color: #ffffff;
+}
+
+.disabledLink {
+  color: #000000;
+  text-decoration: none;
 }

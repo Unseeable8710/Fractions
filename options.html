@@ -2,17 +2,24 @@
 <html>
   <head>
     <title>Options</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link title="Options">
+    <base title="Options">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet, preconnect">
   </head>
   <body>
     <label>
       <input type="checkbox" id="changeNewTab" />
       Check this box if you want this extension to change the new tab page.
     </label>
-
+    <br>
     <div id="status"></div>
     <button id="save">Save</button>
-
+    <p class="normalText"><a href="index.html">Go to Math!</a></p>
     <script src="options.js"></script>
-    <script scr="background.js"></script>
+    <script src="/service-workers/background.js"></script>
   </body>
 </html>

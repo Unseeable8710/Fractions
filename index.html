@@ -12,9 +12,9 @@
   </head>
   <body>
     <script src="main.js"></script>
-    <div class="indexProgressContainer fixed-top">
-      <span class="indexProgress"></span>
-    </div>
+    <div class="progress-container">
+      <div class="progress-bar" id="progbar"></div>
+    </div> 
     <div class="pageContainer normalContainer">
       <p class="welcome">Welcome to Math!</p>
       <p class="normalText">Welcome to Math! You can select a topic from the list below, and it will take you to the page that explains your topic. Math is fun!</p>
@@ -22,14 +22,14 @@
       <ul class="normalText">
         <li>Basic:</li>
         <ul>
-          <li><a href="add.html">Addition</a></li>
-          <li><a href="subtract.html">Subtraction</a></li>
-          <li>Multiplication:</li>
+          <li hidden><a href="add.html">Addition</a></li>
+          <li hidden><a href="subtract.html">Subtraction</a></li>
+          <li><a href="multiply.html">Multiplication:</a></li>
           <ul>
             <li><a href="multiply.html#basic-multiplication">Multiplication</a></li>
             <li><a href="multiply.html#exponents">Exponents</a></li>
           </ul>
-          <li><a href="divide.html">Division</a></li>
+          <li hidden><a href="divide.html">Division</a></li>
         </ul>
       </ul>
     </div>

@@ -1,37 +1,8 @@
+window.onscroll = function() {scrollProgressBar()};
+
 function scrollProgressBar() {
-  var getMax = function () {
-    return $(document).height() - $(window).height();
-  };
-
-  var getValue = function () {
-    return $(window).scrollTop();
-  };
-
-  var progressBar = $(".indexProgress"),
-    max = getMax(),
-    value,
-    width;
-
-  var getWidth = function () {
-    // Calculate width in percentage
-    value = getValue();
-    width = (value / max) * 100;
-    width = width + "%";
-    return width;
-  };
-
-  var setWidth = function () {
-    progressBar.css({ width: getWidth() });
-  };
-
-  $(document).on("scroll", setWidth);
-  $(window).on("resize", function () {
-    // Need to reset max
-    max = getMax();
-    setWidth();
-  });
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("progbar").style.width = scrolled + "%";
 }
-$(document).ready(function () {
-  SF_scripts();
-  scrollProgressBar();
-});

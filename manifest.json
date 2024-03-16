@@ -1,19 +1,28 @@
 {
   "manifest_version": 3,
-  "name": "Math",
-  "version": "2.1.0.32",
+  "name": "Math (Beta Release)",
+  "version": "2.2.2.40",
   "description": "Click the extension's icon, and it will open a page. The page has many links that you can click to get to different pages. These pages explain different parts of math. The subjects are: The basics, basic geometry, Pre-Algebra, Algebra I, Algebra II, Geometry, Trigonometry, and Calculus. So far, Algebra I is incomplete, and Algebra II through Calculus are under construction.",
   "icons": {
-    "128": "128.bmp"
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "developer": {
+    "name": "MoleTech"
   },
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "/service-workers/background.js"
   },
-  "default_locale": "en",
   "update_url": "https://clients2.google.com/service/update2/crx",
   "permissions": [
     "storage",
     "tabs"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*",
+    "file:///*/*",
+    "chrome-extension://*/*"
   ],
   "options_ui": {
     "page": "options.html",
@@ -26,5 +35,6 @@
       },
       "description": "Opens index.html."
     }
-  }
+  },
+  "action": {}
 }
