@@ -28,16 +28,26 @@ body {
   font-size: 15.5pt;
 }
 
+.progress-bar, .progress-container {
+  position: fixed;
+  top: 0;
+}
+
 .progress-container {
-  width: 100%;
-  height: 8px;
-  background: #ccc;
+  margin-left: -3.86%;
+  width: 102vw;
+  height: 16px;
+  background: #000;
 }
 
 .progress-bar {
-  height: 8px;
-  background: #04AA6D;
-  width: 0%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 45px;
+  height: 10px;
+  background: #ffaa00;
+  width: 0;
 }
 
 .standardHrLine {
